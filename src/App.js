@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-
+import Participant from './Participant';
+import StageParticipant from './StageParticipant';
 
 // three components, with other subcomponents
 // participant list component, participant component
@@ -8,10 +8,13 @@ import './App.css';
 // stage individual component
 // chat log component, chat entry component
 // associated testing
+
+
 function App() {
   return (
     <div className="App">
-      
+      <Participant />
+      <
     </div>
   );
 }
