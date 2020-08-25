@@ -10,17 +10,12 @@ import STORE from './STORE'
     // timestamp new Date(props.time)
 //}
 
-const findParticipantNameByChatId = (id) => STORE.find(el => el.id === id).name
-console.log(findParticipantNameByChatId(1))
 
 class ChatLog extends Component {
 // takes in store
     render() {
         const chatMessageArray = chatEvents.map(el => {
-            if (el.type === 'message') {
-                return (<li key={el.id}><ChatMessage type={el.type} id={el.id} message={el.message} time={el.time}/></li>)
-            }
-            
+                return (<li className="chat-message-box" key={el.id}><ChatMessage type={el.type} data-id={el.participantId} message={el.message} time={el.time}/></li>)
         })
 
 

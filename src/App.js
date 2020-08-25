@@ -15,8 +15,8 @@ function App() {
   return (
     <div className="App">
       {/* <Participant /> */}
+      {/* <ParticipantBox /> */}
       <Stage />
-      <Stage classNamee="stage-list"/>
       <ChatLog />
     </div>
   );
