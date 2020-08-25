@@ -10,7 +10,7 @@ class ParticipantBox extends Component{
             return (<li key={el.id}><Participant  avatar={el.avatar} name={el.name}/></li>)
         })
         return (
-        <div>
+        <div className='participant-box'>
             <div className="button-box">
             <button type="button" className="chat">
                 Chat 
