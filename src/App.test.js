@@ -26,6 +26,4 @@ describe('App trunk testing', () => {
           .toJSON();
     expect(tree).toMatchSnapshot();
   })
-
-
 })

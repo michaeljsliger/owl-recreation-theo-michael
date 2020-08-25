@@ -4,100 +4,118 @@ exports[`App trunk testing should render correctly 1`] = `
 <div
   className="App"
 >
-  <ul>
-    <li>
-      <div
-        className="sessionParticipant"
+  <div>
+    <div
+      className="button-box"
+    >
+      <button
+        className="chat"
+        type="button"
       >
-        <img
-          alt="avatar"
-          className="user-avatar"
-          src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
-        />
-        <div
-          className="participant-info"
-        >
-          <h6
-            className="particpant-name"
-          >
-            Koren Templeton
-          </h6>
-        </div>
-        <div
-          className="participant-status"
-        />
-      </div>
-    </li>
-    <li>
-      <div
-        className="sessionParticipant"
+        Chat
+      </button>
+      <button
+        className="participants"
+        type="button"
       >
-        <img
-          alt="avatar"
-          className="user-avatar"
-          src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
-        />
+        Particpants
+      </button>
+    </div>
+    <ul>
+      <li>
         <div
-          className="participant-info"
+          className="sessionParticipant"
         >
-          <h6
-            className="particpant-name"
+          <img
+            alt="avatar"
+            className="user-avatar"
+            src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+          />
+          <div
+            className="participant-info"
           >
-            Caty Flucker
-          </h6>
+            <h6
+              className="particpant-name"
+            >
+              Koren Templeton
+            </h6>
+          </div>
+          <div
+            className="participant-status"
+          />
         </div>
+      </li>
+      <li>
         <div
-          className="participant-status"
-        />
-      </div>
-    </li>
-    <li>
-      <div
-        className="sessionParticipant"
-      >
-        <img
-          alt="avatar"
-          className="user-avatar"
-          src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
-        />
-        <div
-          className="participant-info"
+          className="sessionParticipant"
         >
-          <h6
-            className="particpant-name"
+          <img
+            alt="avatar"
+            className="user-avatar"
+            src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+          />
+          <div
+            className="participant-info"
           >
-            Frank Runciman
-          </h6>
+            <h6
+              className="particpant-name"
+            >
+              Caty Flucker
+            </h6>
+          </div>
+          <div
+            className="participant-status"
+          />
         </div>
+      </li>
+      <li>
         <div
-          className="participant-status"
-        />
-      </div>
-    </li>
-    <li>
-      <div
-        className="sessionParticipant"
-      >
-        <img
-          alt="avatar"
-          className="user-avatar"
-          src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
-        />
-        <div
-          className="participant-info"
+          className="sessionParticipant"
         >
-          <h6
-            className="particpant-name"
+          <img
+            alt="avatar"
+            className="user-avatar"
+            src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+          />
+          <div
+            className="participant-info"
           >
-            Ashla Attwool
-          </h6>
+            <h6
+              className="particpant-name"
+            >
+              Frank Runciman
+            </h6>
+          </div>
+          <div
+            className="participant-status"
+          />
         </div>
+      </li>
+      <li>
         <div
-          className="participant-status"
-        />
-      </div>
-    </li>
-  </ul>
+          className="sessionParticipant"
+        >
+          <img
+            alt="avatar"
+            className="user-avatar"
+            src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+          />
+          <div
+            className="participant-info"
+          >
+            <h6
+              className="particpant-name"
+            >
+              Ashla Attwool
+            </h6>
+          </div>
+          <div
+            className="participant-status"
+          />
+        </div>
+      </li>
+    </ul>
+  </div>
   <ul
     className="stage-list"
   >
