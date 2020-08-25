@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stage testing should render correctly 1`] = `
+<ul
+  className="stage-list"
+>
+  <li>
+    <div
+      className="stage-piece"
+    >
+      <div
+        className="stage-contact"
+      >
+        <div
+          className="stage-contact-header"
+        >
+          Koren Templeton
+        </div>
+        <img
+          alt="huh"
+          className="stage-contact-image"
+          src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+        />
+      </div>
+    </div>
+  </li>
+  <li>
+    <div
+      className="stage-piece"
+    >
+      <div
+        className="stage-contact"
+      >
+        <div
+          className="stage-contact-header"
+        >
+          Axe Kubicka
+        </div>
+        <img
+          alt="huh"
+          className="stage-contact-image"
+          src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+        />
+      </div>
+    </div>
+  </li>
+  <li>
+    <div
+      className="stage-piece"
+    >
+      <div
+        className="stage-contact"
+      >
+        <div
+          className="stage-contact-header"
+        >
+          Frank Runciman
+        </div>
+        <img
+          alt="huh"
+          className="stage-contact-image"
+          src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+        />
+      </div>
+    </div>
+  </li>
+</ul>
+`;

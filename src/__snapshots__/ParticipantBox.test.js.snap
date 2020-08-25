@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Participant Box Branch Testing should render correctly 1`] = `
+<ul>
+  <li>
+    <div
+      className="sessionParticipant"
+    >
+      <img
+        alt="avatar"
+        className="user-avatar"
+        src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+      />
+      <div
+        className="participant-info"
+      >
+        <h6
+          className="particpant-name"
+        >
+          Koren Templeton
+        </h6>
+      </div>
+      <div
+        className="participant-status"
+      />
+    </div>
+  </li>
+  <li>
+    <div
+      className="sessionParticipant"
+    >
+      <img
+        alt="avatar"
+        className="user-avatar"
+        src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+      />
+      <div
+        className="participant-info"
+      >
+        <h6
+          className="particpant-name"
+        >
+          Caty Flucker
+        </h6>
+      </div>
+      <div
+        className="participant-status"
+      />
+    </div>
+  </li>
+  <li>
+    <div
+      className="sessionParticipant"
+    >
+      <img
+        alt="avatar"
+        className="user-avatar"
+        src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+      />
+      <div
+        className="participant-info"
+      >
+        <h6
+          className="particpant-name"
+        >
+          Frank Runciman
+        </h6>
+      </div>
+      <div
+        className="participant-status"
+      />
+    </div>
+  </li>
+  <li>
+    <div
+      className="sessionParticipant"
+    >
+      <img
+        alt="avatar"
+        className="user-avatar"
+        src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+      />
+      <div
+        className="participant-info"
+      >
+        <h6
+          className="particpant-name"
+        >
+          Ashla Attwool
+        </h6>
+      </div>
+      <div
+        className="participant-status"
+      />
+    </div>
+  </li>
+</ul>
+`;

@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat Log Branch Testing should render correctly 1`] = `
+<ul
+  className="chat-list"
+>
+  <li
+    className="chat-message-box"
+  >
+    <div
+      className="single-message"
+    >
+      <div
+        className="single-message-header"
+      >
+        <div>
+          <h5>
+            Axe Kubicka
+          </h5>
+        </div>
+        <div>
+          <h6>
+            1/30/2019, 5:50:46 AM
+          </h6>
+        </div>
+      </div>
+      <div
+        className="time-container"
+      >
+        <p>
+          Hello world
+        </p>
+      </div>
+    </div>
+  </li>
+  <li
+    className="chat-message-box"
+  >
+    <div
+      className="single-message"
+    >
+      Caty Flucker
+       
+      gave a thumbs up!
+    </div>
+  </li>
+  <li
+    className="chat-message-box"
+  >
+    <div
+      className="single-message"
+    >
+      Frank Runciman
+       
+      gave a thumbs down!
+    </div>
+  </li>
+  <li
+    className="chat-message-box"
+  >
+    <div
+      className="single-message"
+    >
+      Koren Templeton
+       
+      raised their hand!
+    </div>
+  </li>
+  <li
+    className="chat-message-box"
+  >
+    <div
+      className="single-message"
+    >
+      Koren Templeton
+       
+      clapped
+    </div>
+  </li>
+  <li
+    className="chat-message-box"
+  >
+    <div
+      className="single-message"
+    >
+      Koren Templeton
+       
+      joined
+    </div>
+  </li>
+  <li
+    className="chat-message-box"
+  >
+    <div
+      className="single-message"
+    >
+      Ashla Attwool
+       
+      left
+    </div>
+  </li>
+  <li
+    className="chat-message-box"
+  >
+    <div
+      className="single-message"
+    >
+      Axe Kubicka
+       
+      joined the stage
+    </div>
+  </li>
+  <li
+    className="chat-message-box"
+  >
+    <div
+      className="single-message"
+    >
+      Axe Kubicka
+       
+      leaved the stage
+    </div>
+  </li>
+</ul>
+`;

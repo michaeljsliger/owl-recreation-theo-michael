@@ -11,7 +11,7 @@ class Stage extends Component {
            return (<li key={el.id}><StageParticipant  avatar={el.avatar} name={el.name}/></li>)
         })
         return (
-            <ul className={this.props.classNamee}>{stageParticipantArray}</ul>
+            <ul className="stage-list">{stageParticipantArray}</ul>
         )
     }
 }

@@ -14,8 +14,8 @@ import ParticipantBox from './participantBox';
 function App() {
   return (
     <div className="App">
-      <ParticipantBox/>
-      <Stage classNamee="stage-list"/>
+      <ParticipantBox />
+      <Stage />
       <ChatLog />
     </div>
   );
