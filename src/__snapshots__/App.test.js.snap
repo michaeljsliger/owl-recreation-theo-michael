@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App trunk testing should render correctly 1`] = `
+<div
+  className="App"
+>
+  <ul>
+    <li>
+      <div
+        className="sessionParticipant"
+      >
+        <img
+          alt="avatar"
+          className="user-avatar"
+          src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+        />
+        <div
+          className="participant-info"
+        >
+          <h6
+            className="particpant-name"
+          >
+            Koren Templeton
+          </h6>
+        </div>
+        <div
+          className="participant-status"
+        />
+      </div>
+    </li>
+    <li>
+      <div
+        className="sessionParticipant"
+      >
+        <img
+          alt="avatar"
+          className="user-avatar"
+          src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+        />
+        <div
+          className="participant-info"
+        >
+          <h6
+            className="particpant-name"
+          >
+            Caty Flucker
+          </h6>
+        </div>
+        <div
+          className="participant-status"
+        />
+      </div>
+    </li>
+    <li>
+      <div
+        className="sessionParticipant"
+      >
+        <img
+          alt="avatar"
+          className="user-avatar"
+          src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+        />
+        <div
+          className="participant-info"
+        >
+          <h6
+            className="particpant-name"
+          >
+            Frank Runciman
+          </h6>
+        </div>
+        <div
+          className="participant-status"
+        />
+      </div>
+    </li>
+    <li>
+      <div
+        className="sessionParticipant"
+      >
+        <img
+          alt="avatar"
+          className="user-avatar"
+          src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+        />
+        <div
+          className="participant-info"
+        >
+          <h6
+            className="particpant-name"
+          >
+            Ashla Attwool
+          </h6>
+        </div>
+        <div
+          className="participant-status"
+        />
+      </div>
+    </li>
+  </ul>
+  <ul
+    className="stage-list"
+  >
+    <li>
+      <div
+        className="stage-piece"
+      >
+        <div
+          className="stage-contact"
+        >
+          <div
+            className="stage-contact-header"
+          >
+            Koren Templeton
+          </div>
+          <img
+            alt="huh"
+            className="stage-contact-image"
+            src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+          />
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="stage-piece"
+      >
+        <div
+          className="stage-contact"
+        >
+          <div
+            className="stage-contact-header"
+          >
+            Axe Kubicka
+          </div>
+          <img
+            alt="huh"
+            className="stage-contact-image"
+            src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+          />
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="stage-piece"
+      >
+        <div
+          className="stage-contact"
+        >
+          <div
+            className="stage-contact-header"
+          >
+            Frank Runciman
+          </div>
+          <img
+            alt="huh"
+            className="stage-contact-image"
+            src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+          />
+        </div>
+      </div>
+    </li>
+  </ul>
+  <ul
+    className="chat-list"
+  >
+    <li
+      className="chat-message-box"
+    >
+      <div
+        className="single-message"
+      >
+        <div
+          className="single-message-header"
+        >
+          <div>
+            <h5>
+              Axe Kubicka
+            </h5>
+          </div>
+          <div>
+            <h6>
+              1/30/2019, 5:50:46 AM
+            </h6>
+          </div>
+        </div>
+        <div
+          className="time-container"
+        >
+          <p>
+            Hello world
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      className="chat-message-box"
+    >
+      <div
+        className="single-message"
+      >
+        Caty Flucker
+         
+        gave a thumbs up!
+      </div>
+    </li>
+    <li
+      className="chat-message-box"
+    >
+      <div
+        className="single-message"
+      >
+        Frank Runciman
+         
+        gave a thumbs down!
+      </div>
+    </li>
+    <li
+      className="chat-message-box"
+    >
+      <div
+        className="single-message"
+      >
+        Koren Templeton
+         
+        raised their hand!
+      </div>
+    </li>
+    <li
+      className="chat-message-box"
+    >
+      <div
+        className="single-message"
+      >
+        Koren Templeton
+         
+        clapped
+      </div>
+    </li>
+    <li
+      className="chat-message-box"
+    >
+      <div
+        className="single-message"
+      >
+        Koren Templeton
+         
+        joined
+      </div>
+    </li>
+    <li
+      className="chat-message-box"
+    >
+      <div
+        className="single-message"
+      >
+        Ashla Attwool
+         
+        left
+      </div>
+    </li>
+    <li
+      className="chat-message-box"
+    >
+      <div
+        className="single-message"
+      >
+        Axe Kubicka
+         
+        joined the stage
+      </div>
+    </li>
+    <li
+      className="chat-message-box"
+    >
+      <div
+        className="single-message"
+      >
+        Axe Kubicka
+         
+        leaved the stage
+      </div>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat Message Branch Testing should render correctly 1`] = `
+<div
+  className="single-message"
+>
+  <div
+    className="single-message-header"
+  >
+    <div>
+      <h5>
+        Axe Kubicka
+      </h5>
+    </div>
+    <div>
+      <h6>
+        Invalid Date
+      </h6>
+    </div>
+  </div>
+  <div
+    className="time-container"
+  >
+    <p />
+  </div>
+</div>
+`;

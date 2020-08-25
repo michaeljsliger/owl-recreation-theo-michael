@@ -9,12 +9,14 @@ class StageParticipant extends Component {
     // render template
     render() {
         return (
+        <div className="stage-piece">
             <div className="stage-contact" id={this.props.id}>
                 <div className="stage-contact-header">
                     {this.props.name}
                 </div>
                <img className="stage-contact-image" src={this.props.avatar} alt="huh" />
             </div>
+        </div>
         );
     }
 }

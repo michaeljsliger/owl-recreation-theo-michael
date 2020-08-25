@@ -1,11 +1,11 @@
 import React from 'react';
-import ChatLog from './ChatLog';
+// import ChatLog from './ChatLog';
 import STORE from './STORE';
-import chatEvents from './ChatSTORE';
+// import chatEvents from './ChatSTORE';
 
 
 
-const findParticipantNameByChatId = (id) => STORE.find(el => el.id === id).name
+const findParticipantNameByChatId = (id) => STORE.find(el => el.id === parseInt(id))
 
 
 class ChatMessage extends React.Component {
@@ -14,6 +14,7 @@ class ChatMessage extends React.Component {
     // id, message, time, type
     render() {
         const currName = findParticipantNameByChatId(this.props['data-id']);
+        
 
         const Emoted = function(type) {
             switch(type) {
@@ -45,7 +46,7 @@ class ChatMessage extends React.Component {
              return (
                 <div className="single-message">
                     <div className="single-message-header">
-                        <div><h5>{currName}</h5></div>
+                        <div><h5>{currName.name}</h5></div>
                         <div><h6>{timing}</h6></div>
                     </div>
                     <div className="time-container">
@@ -55,7 +56,7 @@ class ChatMessage extends React.Component {
              )} else {
                  return (
                    <div className="single-message">
-                    {currName} {Emoted(this.props.type)}
+                    {currName.name} {Emoted(this.props.type)}
                    </div>  
                  )
              }

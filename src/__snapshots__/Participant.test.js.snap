@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Participant Box Branch Testing should render correctly 1`] = `
+<div
+  className="sessionParticipant"
+>
+  <img
+    alt="avatar"
+    className="user-avatar"
+  />
+  <div
+    className="participant-info"
+  >
+    <h6
+      className="particpant-name"
+    />
+  </div>
+  <div
+    className="participant-status"
+  />
+</div>
+`;

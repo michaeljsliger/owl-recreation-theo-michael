@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stage Participant Branch Component Testing should render correctly 1`] = `
+<div
+  className="stage-piece"
+>
+  <div
+    className="stage-contact"
+  >
+    <div
+      className="stage-contact-header"
+    />
+    <img
+      alt="huh"
+      className="stage-contact-image"
+    />
+  </div>
+</div>
+`;
