@@ -22,9 +22,10 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #404853;
-  /* align-items: center; */
+  background-color: whitesmoke;
+  height: 560px;
   text-decoration: none;
+  border: 7px white solid;
   
 }
 
@@ -32,6 +33,11 @@ code {
   margin: 8px;
   padding: 4px;
   list-style-type: none;
+
+}
+.stage-contact{
+  border: lightskyblue 5px dotted;
+  margin-top: 77px;
 }
 
 .stage-list li .stage-contact-header {
@@ -40,18 +46,21 @@ code {
 }
 
 .stage-contact {
-  background-color: #1e2835;
+  background-color: lightblue;
 }
 
-.chat-list {
+ul.chat-list {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   /* align-items: center; */
-  align-content: center;
+  padding: 6px;
+  background-color: lightskyblue;
+  border: 10px white solid;
 }
 
 .chat-message-box {
+
   list-style-type: none;
   margin: 8px;
   padding: 8px;
@@ -61,8 +70,12 @@ code {
 .single-message {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
+  font-size: 8px;
+  justify-content: space-evenly;
+  border: 1px solid whitesmoke;
+  padding: 4px;
+
 }
 
 .single-message-header {
@@ -76,9 +89,14 @@ code {
   margin: 0 8px;
 }
 .participant-box{
+
   display: flex;
   flex-direction: column;
-
+  height: 553px;
+  margin-top: 17px;
+  border: 10px solid white;
+  background-color: lightskyblue;
+  
 }
 
 .participant-box li{
@@ -93,7 +111,12 @@ code {
 }
 .participant-box ul{
   background-color: whitesmoke;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 42px;
+}
+
 .participant-box img {
   width: 42px;
 
@@ -104,6 +127,16 @@ code {
 }
 .participant-box .button-box button{
   font-size: 10px;
+  margin:4px;
   justify-self: center;
-  border-radius: 21%;
+  border: white 1px solid;
+  border-radius: 40%;
+  box-shadow: white 1px 1px;
+}
+
+.button-box{
+  display: flex;
+  justify-content: safe-center;
+  margin-top: 14px;
+  
 }
