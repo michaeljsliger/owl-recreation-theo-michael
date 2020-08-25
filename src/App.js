@@ -1,6 +1,7 @@
 import React from 'react';
 import Participant from './Participant';
-import StageParticipant from './StageParticipant';
+import Stage from './Stage';
+import ChatLog from './ChatLog';
 
 // three components, with other subcomponents
 // participant list component, participant component
@@ -13,8 +14,10 @@ import StageParticipant from './StageParticipant';
 function App() {
   return (
     <div className="App">
-      <Participant />
-      <
+      {/* <Participant /> */}
+      <Stage />
+      <Stage classNamee="stage-list"/>
+      <ChatLog />
     </div>
   );
 }

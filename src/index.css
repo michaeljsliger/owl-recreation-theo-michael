@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+}
+
+.stage-list {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #404853;
+  align-items: center;
+  text-decoration: none;
+  
+}
+
+.stage-list li {
+  margin: 8px;
+  padding: 4px;
+  list-style-type: none;
+}
+
+.stage-list li .stage-contact-header {
+  text-align: center;
+  color: white;
+}
+
+.stage-contact {
+  background-color: #1e2835;
+}
